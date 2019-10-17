@@ -285,8 +285,8 @@ int main()
             string s_path = shortest_path(ver, adja, ip_by_user);
             string er_str = s_path.substr(0, s_path.find(" "));
             //cout<< er_str<<endl;;
-            if (er_str =="Error:"){
-                ver =0;}
+            //if (er_str =="Error:"){
+              //  ver =0;}
             //else{
             cout<< s_path << endl;
         }}
